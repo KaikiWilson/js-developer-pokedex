@@ -12,40 +12,68 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Font Roboto -->
+    <!-- font: Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 
-    <!-- Nosso CSS -->
-    <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/global.css">
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/container.css">
 </head>
 
 <body>
-    <section class="content">
-        <h1>Pokedex</h1>
+        <section class="content">
+            <ol class="pokemons">
+                <li class="pokemon">
+                    <span class="name">Bulbasaur</span>
+                    <span class="number">#001</span>
 
-        <ol class="pokemons">
-            <li class="pokemon">
-                <span class="number">#001</span>
-                <span class="name">Bulbasaur</span>
+                    <div class="detail">
+                        <ol class="types">
+                            <li class="type">grass</li>
+                            <li class="type">poison</li>
+                        </ol>
+                    
+                        <div class="imgbox">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                                alt="Bulbasaur">
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <div class="container">
 
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
-                    </ol>
+            <div class="descbar">
+                <button class="buttons" id="aboutButton" type="button">About</button>
+                <button class="buttons" id="statusButton" type="button">Base Status</button>
+                <button class="buttons" id="evolutionButton" type="button">Evolution</button>
+                <button class="buttons" id="movesButton" type="button">Moves</button>
+            </div>
 
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-                        alt="Bulbasaur">
-                </div>
-            </li>
-        </ol>
-    </section>
+            <div class="aboutpoke">
+                <p>Species</p> <span>Crregando...</span>
+                <p>Height</p> <span>Crregando...</span>
+                <p>Weight</p> <span>Crregando...</span>
+                <p>Abilities</p> <span>Crregando...</span>
+            </div>
+
+            <div>
+                <h3>Breeding</h3>
+            </div>
+
+            <div>
+                <p>Gender</p> <span>%</span> <span>%</span>
+                <p>Gender</p> <span>Carregando...</span> 
+                <p>Gender</p> <span>Carregando...</span> 
+            </div>
+
+        </div>
 
     <!-- Nosso JS -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/pokemons-individual-description-pokedex/assets/js/main.js"></script>
 </body>
 
 </html>
