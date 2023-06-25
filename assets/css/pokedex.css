@@ -144,7 +144,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
-    box-shadow: 0px 0px 10px .5px cyan;
+    box-shadow: 0px 0px 10px .5px #6c79db;
     transition: .25s;
 }
 

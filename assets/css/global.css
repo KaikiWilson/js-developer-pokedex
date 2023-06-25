@@ -45,6 +45,8 @@ body {
 
 .content .pokemons li:hover {
     padding: 20px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px .5px white;
     transition: .25s;
 }
 
