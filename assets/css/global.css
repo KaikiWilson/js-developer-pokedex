@@ -4,14 +4,48 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: purple;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #413e3e9f;
+}
+
+.content #namepokedex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content h1 {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid yellow;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.content h1:hover {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px .5px yellow;
+    background-color: rgba(255, 255, 0, 0.055);
+    transition: .25s;
+}
+
+
+.content .pokemons li {
+    transition: .25s;
+}
+
+.content .pokemons li:hover {
+    padding: 20px;
+    transition: .25s;
 }
 
 @media screen and (min-width: 992px) {

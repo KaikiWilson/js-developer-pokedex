@@ -144,6 +144,21 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    box-shadow: 0px 0px 10px .5px cyan;
+    transition: .25s;
+}
+
+.pagination button:hover {
+    padding: .27rem .5rem;
+    margin: .27rem 0;
+    font-size: .700rem;
+    color: #000;
+    background-color: cyan;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px .5px cyan;
+    cursor: pointer;
+    transition: .25s;
 }
 
 @media screen and (min-width: 380px) {
